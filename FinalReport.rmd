@@ -80,8 +80,10 @@ Again, we see that our results are very similar to the ones in our master branch
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 `
-
-
+```{r}
+fisherXY(mydata$race,mydata$cappun,printAll = TRUE)
+```
+The only two groups that were different in this sample set were black people and white people, (with a significantly low p value of 0.00001741). The black people and other races were quite similar and so were the white people and other races with p values of 0.05299 and 0.2565 respectively. In this branchm the only groups that were different are the white people and the black people versus in the master branch everyone was statistically different.
 
 # Discussion and Conclusion
 
